@@ -107,23 +107,42 @@ WD-sw4
 |   └─ js
 └─ pages
 |  └─ feature-1
-|     └─ assets
-|     |  └─ css
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ 1st.gif
+|  |  |  |  └─ 2nd.png
+|  |  |  |  └─ 3rd.gif
+|  |  |  |  └─ groudon.png
+|  |  |  |  └─ kyogre.png
+|  |  |  |  └─ latias.png
+|  |  |  |  └─ latios.png
+|  |  |  |  └─ rayquaza.png
+|  |  |  |  └─ regice.png
+|  |  |  |  └─ regirock.png
+|  |  |  |  └─ registeel.png
+|  |  |  └─ js
+|  |  └─ index.html
+|  └─ feature-2
+|  |  └─ assets
+|  |  |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ 1st.gif
-|     |  |  └─ 2nd.png
+|     |  |  └─ 2nd.jpg
 |     |  |  └─ 3rd.gif
-|     |  |  └─ groudon.png
-|     |  |  └─ kyogre.png
-|     |  |  └─ latias.png
-|     |  |  └─ latios.png
-|     |  |  └─ rayquaza.png
-|     |  |  └─ regice.png
-|     |  |  └─ regirock.png
-|     |  |  └─ registeel.png
+|     |  |  └─ articuno.png
+|     |  |  └─ deoxys.png
+|     |  |  └─ entei.png
+|     |  |  └─ ho-oh.png
+|     |  |  └─ moltrres.png
+|     |  |  └─ raikou.png
+|     |  |  └─ suicine.png
+|     |  |  └─ zapdos.png
 |     |  └─ js
 |     └─ index.html
+|
 └─ index.html
 └─ readme.md
 ```

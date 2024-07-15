@@ -39,39 +39,36 @@ nav ul li a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-/* Section-specific styles */
-
-/* First Section */
 .background-1 {
     display: flex;
     justify-content: space-around;
-    background-image: url("/pages/feature-2/img/1st.gif");
+    background-image: url("../img/1st.gif");
     background-size: cover;
     background-position: center;
-    padding: 6rem 0; /* Increased top padding for more space */
+    padding: 6rem 0;
 }
 .container:nth-child(1) {
-    background-color: yellow; /* Red color with transparency */
+    background-color: yellow; 
 }
 
 .container:nth-child(2) {
-    background-color: lightblue; /* Green color with transparency */
+    background-color: lightblue;
 }
 
 .container:nth-child(3) {
-    background-color: pink; /* Blue color with transparency */
+    background-color: pink;
 }
 
 .container {
     display: inline-block;
-    width: 20%; /* Adjusted width to make containers smaller */
-    padding: 10px; /* Adjusted padding */
-    margin: 0 1%; /* Adjusted margins for spacing */
+    width: 20%;
+    padding: 10px;
+    margin: 0 1%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: glow 1.5s infinite alternate;
-    height: 350px; /* Set a fixed height */
+    height: 350px;
     vertical-align: top;
 }
 
@@ -94,19 +91,19 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Center align text */
+    text-align: center;
 }
 
 .front img {
-    max-width: 80%; /* Made images smaller */
-    max-height: 80%; /* Made images smaller */
+    max-width: 80%;
+    max-height: 80%;
     width: auto;
     height: auto;
-    margin: auto; /* Optionally, add margi"n or padding to adjust the image position */
+    margin: auto;
 }
 
 .back {
-    background-color: transparent; /* Replace with your desired color */
+    background-color: transparent;
     transform: rotateY(180deg);
 }
 
@@ -128,7 +125,6 @@ nav ul li a:hover {
     line-height: 1.4;
 }
 
-/* Glowing animation */
 @keyframes glow {
     100% {
         box-shadow: 0 0 20px rgb(201, 12, 12);
@@ -139,10 +135,10 @@ nav ul li a:hover {
 
 /* Second Section */
 .background-2 {
-    background-image: url("/pages/feature-2/img/2nd.jpg"); /* Replace with your actual background image path */
+    background-image: url("../img/2nd.jpg");
     background-size: cover;
     background-position: center;
-    padding: 50px 0; /* Adjust padding as needed */
+    padding: 50px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -150,8 +146,8 @@ nav ul li a:hover {
 
 .sliding-container {
     position: relative;
-    width: 350px; /* Adjust width as needed */
-    height: 350px; /* Adjust height as needed */
+    width: 350px;
+    height: 350px;
     overflow: hidden;
     margin: 20px;
     transition: transform 0.3s ease;
@@ -162,32 +158,32 @@ nav ul li a:hover {
 }
 
 .sliding-container:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
+    transform: scale(1.1);
 }
 
 .sliding-container img {
-    width: 50%; /* Make images slightly smaller */
-    height: auto; /* Make images slightly smaller */
+    width: 50%;
+    height: auto;
     object-fit: cover;
     transition: transform 0.3s ease;
     display: block;
-    margin: auto; /* Center the image horizontally */
+    margin: auto;
 }
 
 .sliding-container:hover img {
-    transform: rotate(360deg); /* Spin effect on hover */
+    transform: rotate(360deg);
 }
 
 #container4 {
-    background-color: #ff6666; /* Red color for container 4 */
+    background-color: #ff6666;
 }
 
 #container5 {
-    background-color: #66ccff; /* Blue color for container 5 */
+    background-color: #66ccff;
 }
 
 #container6 {
-    background-color: #ffcc00; /* Gold color for container 6 */
+    background-color: #ffcc00;
 }
 
 .content {
@@ -195,7 +191,7 @@ nav ul li a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for text */
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px;
     transform: translateY(100%);
@@ -206,42 +202,39 @@ nav ul li a:hover {
     transform: translateY(0);
 }
 
-
-/* Glowing animation */
 @keyframes glow {
     100% {
         box-shadow: 0 0 20px rgb(201, 12, 12);
     }
 }
 
-/* Third Section */
 .background-3 {
-    background-image: url("/pages/feature-2/img/3rd.gif");
+    background-image: url("../img/3rd.gif");
     background-size: cover;
     background-position: center;
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensures the section covers the viewport */
+    min-height: 100vh;
 }
 
 .appearing-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Stack image and content vertically */
+    flex-direction: column;
     margin-bottom: 20px;
     overflow: hidden;
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Limit max width if necessary */
+    width: 80%;
+    max-width: 600px;
     animation: glow 1.5s infinite alternate;
 }
 
 .image-container {
     position: relative;
     width: 100%;
-    animation: bounce 1s infinite ease-in-out; /* Simplified animation property */
+    animation: bounce 1s infinite ease-in-out;
 }
 
 @keyframes bounce {
@@ -254,30 +247,28 @@ nav ul li a:hover {
 }
 
 .content-3 {
-    width: 80%; /* Reduce width to make it smaller */
-    max-width: 400px; /* Limit max width if necessary */
+    width: 80%;
+    max-width: 400px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     transition: transform 0.5s ease-in-out;
-    text-align: center; /* Center-align text */
-    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+    margin: 0 auto;
     animation: glow 1.5s infinite alternate;
 }
 
 .content-3:hover {
     transform: translateY(10px);
-    background-color: rgb(201, 12, 12); /* Change background color on hover */
-    color: white; /* Change text color on hover */
+    background-color: rgb(201, 12, 12);
+    color: white;
 }
 
-/* Glowing animation */
 @keyframes glow {
     100% {
         box-shadow: 0 0 20px rgb(201, 12, 12);
     }
 }
 
-/* footer */
 footer {
     background: rgba(0, 0, 0, 0.5);
     color: white;
