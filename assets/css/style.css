@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("/assets/img/home.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+main {
+    padding-top: 5rem;
+    padding-bottom: 3rem; /* Add padding to the bottom of the main section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 400px; /* Set a fixed width for all containers */
+    height: 250px; /* Set a fixed height for all containers */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.container h2 {
+    margin: 0.5rem 0;
+    /* Add color and size customization here */
+    color: white; /* Change the color of the title text */
+    font-size: 1.5rem; /* Change the size of the title text */
+}
+
+.container p {
+    margin: 0;
+    /* Add color and size customization here */
+    color: white; /* Change the color of the description text */
+    font-size: 1rem; /* Change the size of the description text */
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+/* Ensure the container links are not styled as regular links */
+.container-link {
+    text-decoration: none;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
