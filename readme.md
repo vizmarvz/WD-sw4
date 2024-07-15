@@ -100,10 +100,11 @@ WD-sw4
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ ho-oh.png
-|   |   └─ home.jpeg
+|   |   └─ 1st.png
+|   |   └─ campus.jpeg
+|   |   └─ home.png
 |   |   └─ icon.png
-|   |   └─ rayquaza.png
+|   |   └─ samba.png
 |   └─ js
 └─ pages
 |  └─ feature-1
@@ -111,17 +112,17 @@ WD-sw4
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |  |  └─ 1st.gif
-|  |  |  |  └─ 2nd.png
-|  |  |  |  └─ 3rd.gif
-|  |  |  |  └─ groudon.png
-|  |  |  |  └─ kyogre.png
-|  |  |  |  └─ latias.png
-|  |  |  |  └─ latios.png
-|  |  |  |  └─ rayquaza.png
-|  |  |  |  └─ regice.png
-|  |  |  |  └─ regirock.png
-|  |  |  |  └─ registeel.png
+|  |  |  |  └─ 1st.jpg
+|  |  |  |  └─ 2nd.jpg
+|  |  |  |  └─ 3rd.jpg
+|  |  |  |  └─ samba-adv.png
+|  |  |  |  └─ samba-cl.png
+|  |  |  |  └─ samba-og.png
+|  |  |  |  └─ samba-rm.png
+|  |  |  |  └─ samba-rose.png
+|  |  |  |  └─ samba-super.png
+|  |  |  |  └─ samba-vegan.png
+|  |  |  |  └─ velosamba.png
 |  |  |  └─ js
 |  |  └─ index.html
 |  └─ feature-2
@@ -129,17 +130,16 @@ WD-sw4
 |  |  |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ 1st.gif
-|     |  |  └─ 2nd.jpg
-|     |  |  └─ 3rd.gif
-|     |  |  └─ articuno.png
-|     |  |  └─ deoxys.png
-|     |  |  └─ entei.png
-|     |  |  └─ ho-oh.png
+|     |  |  └─ 1st.jpg
+|     |  |  └─ campus-bad-bunny.jpg
+|     |  |  └─ campus-blue.png
+|     |  |  └─ campus-green.png
+|     |  |  └─ campus-korn-2.jpg
+|     |  |  └─ campus-korn.jpg
+|     |  |  └─ campus-red.png
 |     |  |  └─ moltrres.png
-|     |  |  └─ raikou.png
-|     |  |  └─ suicine.png
-|     |  |  └─ zapdos.png
+|     |  |  └─ leather.png
+|     |  |  └─ pigskin.png
 |     |  └─ js
 |     └─ index.html
 |
