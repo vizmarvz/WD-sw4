@@ -4,23 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/vizmarvz">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">seatwork 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ a Features Display Website showcasing distinct design layouts for different features using pure HTML and CSS. The website should include multiple pages for demonstration and emphasize layout design.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=vizmarvz/WD-sw4)
 
 ---
 
@@ -61,22 +60,28 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  - I'm currently working on a Features Display Website project. It's all about showcasing different design layouts using just HTML and CSS. The main aim is to demonstrate various visual and functional elements in web design, with a strong focus on creative animations and hover effects.
 - Whats the purpose
+   - The Features Display Website I'm creating serves as a platform to showcase my web design skills using only HTML and CSS. It's all about demonstrating a range of creative and functional design layouts, complete with animations and hover effects, to really highlight my skills and creativity in web development.
 - What are key components
+  - In the Features Display Website, you'll find sections designed with various layouts: some feature text alongside images, others place images above or below text to highlight modular design. The site incorporates creative animations and hover effects throughout, adding visual appeal and enhancing the overall user experience.
 - What technology used and how it is used
+  - In the Features Display Website, HTML is used to organize the layout and content, defining elements such as text, images, and boxes. CSS steps in to style these elements by setting colors, fonts, spacing, and even adding animations and hover effects for interactive flair. By combining HTML and CSS, the website achieves a visually appealing and functional design, all without relying on JavaScript or other frameworks.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+MultiPage Website
+Feature Pages
+Hovering Effects
+Feature Page
+Landing Page
+Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -90,23 +95,34 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-sw4
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ ho-oh.png
+|   |   └─ home.jpeg
+|   |   └─ icon.png
+|   |   └─ rayquaza.png
 |   └─ js
-|       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ feature-1
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ 1st.gif
+|     |  |  └─ 2nd.png
+|     |  |  └─ 3rd.gif
+|     |  |  └─ groudon.png
+|     |  |  └─ kyogre.png
+|     |  |  └─ latias.png
+|     |  |  └─ latios.png
+|     |  |  └─ rayquaza.png
+|     |  |  └─ regice.png
+|     |  |  └─ regirock.png
+|     |  |  └─ registeel.png
 |     |  └─ js
-|     |     └─ script.js
 |     └─ index.html
 └─ index.html
 └─ readme.md
