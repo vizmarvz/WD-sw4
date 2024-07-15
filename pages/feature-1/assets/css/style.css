@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 .background-1 {
-    background-image: url("../img/1st.gif");
+    background-image: url("../../assets/img/1st.gif");
     background-size: cover;
     background-position: center;
     padding: 50px 0;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 
 .background-2 {
-    background-image: url("../img/2nd.png");
+    background-image: url("../../assets/img/2nd.png");
     background-size: cover;
     background-position: center;
     padding: 50px 0;
@@ -135,7 +135,7 @@ nav ul li a:hover {
 }
 
 .background-3 {
-    background-image: url("../img/3rd.gif");
+    background-image: url("../../assets/img/3rd.gif");
     background-size: cover;
     background-position: center;
     padding: 50px 0;
